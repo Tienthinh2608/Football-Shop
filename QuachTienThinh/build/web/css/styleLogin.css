@@ -1,0 +1,116 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 12, 2024, 10:36:21 PM
+    Author     : DELL
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(135deg, #0b6623, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Thay thế URL bằng URL hình nền bóng đá của bạn */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form_hoa {
+    width: 100%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.box_login h2 {
+    margin: 0 0 20px;
+    padding: 0;
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    border-bottom: 2px solid #006400;
+    padding-bottom: 10px;
+}
+
+.row-item {
+    margin-bottom: 15px;
+}
+
+.row-item label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.row-item input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.row-item input:focus {
+    border-color: #006400;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 100, 0, 0.5);
+}
+
+.row-item p {
+    margin: 0;
+}
+
+.row-item button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background: #006400;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.row-item button:hover {
+    background: #004d00;
+    transform: scale(1.05);
+}
+
+.login-now {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.login-now a {
+    color: #006400;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.login-now a:hover {
+    color: #004d00;
+}
+
+@media (max-width: 768px) {
+    .form_hoa {
+        padding: 20px;
+    }
+
+    .box_login h2 {
+        font-size: 24px;
+    }
+}
+
